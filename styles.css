@@ -1,0 +1,101 @@
+html{
+    height:100%;
+}
+
+
+#web-logo{
+    font-family:serif;
+    font-size:35px ; 
+    color:white;
+    background-color: #0bada6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-top: -16px;
+}
+
+#nav-body{
+    background-color: fff;
+}
+
+
+h1{
+    font-family: serif;
+    font-weight: bold;
+    color: #0bada6;
+}
+#body{
+    background-color: #ededed;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    height:100%;
+}
+#body #summary{
+    background-color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 40px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    line-height: 45px;
+}
+.graph{
+    width:49%;
+}
+.graph-home{
+    float:left;
+    width:49%;
+}
+.graph-vhome{
+    width:49%;
+}
+.graph-active{
+    float:left;
+    width:48%;
+    border:solid;
+    border-color: #0bada6;
+    border-width: 3px;
+}
+.graph-summary{
+    width:100%;
+    text-align: center;
+}
+#footer{
+    background-color:#0bada6 ;
+    color:white;
+    font-family: serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#body #visualizations{
+    background-color: white;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 15px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    line-height: 45px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #nav-body {
+      background-color: #0bada6;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .graph {
+      width:100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .graph-vhome {
+      width:24%;
+    }
+  }
